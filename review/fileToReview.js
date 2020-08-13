@@ -1,4 +1,13 @@
-
+/**
+ * Review du fichier
+ * 
+ * Ligne 53: Je ne connais pas le formats des mouvements traités. Mais si à une certaine page les mouvements peuvent avoir une date différente alors à priori on ne traite 
+ * pas les mouvements de cette page ayant une date correct.
+ * 
+ * Ligne 57: Même pour un tableau vide, if([]) -> true, donc on ne pourra pas avoir le cas du else qui renvoie une erreur de liste vide à la ligne 64
+ * 
+ * Ligne 74: Il me semble que le return ne pourra jamais être appellé au vu de la structure if/else du programme
+ */
 var domain = "bank.local.fr"
 
 /**
